@@ -86,3 +86,5 @@ make lint
 See [`docs/model_cards/`](docs/model_cards/) for the PD model card and [`docs/adr/`](docs/adr/) for the validation and interpretability decisions.
 
 Part of the 8-repository Meridian platform.
+
+_Verified locally: XGBoost overfit from train AUC 0.971 to out-of-time test AUC 0.538, while logistic regression held stable at 0.608/0.651 — reproduced against a fresh 8,000-customer generated dataset._
